@@ -3,11 +3,13 @@ package com.example.couponsapp.mainModule.view
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import android.view.WindowManager
 import androidx.activity.viewModels
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import com.example.couponsapp.BR
+import com.example.couponsapp.BuildConfig
 import com.example.couponsapp.R
 import com.example.couponsapp.common.entities.CouponEntity
 import com.example.couponsapp.common.utils.hideKeyword
@@ -26,6 +28,7 @@ class MainActivity : AppCompatActivity() {
 
         setupViewModel()
         setupObservers()
+
 
     }
 
